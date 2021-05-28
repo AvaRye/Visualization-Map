@@ -1,0 +1,1243 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+    
+</head>
+<body>
+    <style>.box { justify-content:center; display:flex; flex-wrap:wrap;  }; </style>
+    <div class="box">
+                <div id="27de925780ac4e6182ce617616241003" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_27de925780ac4e6182ce617616241003 = echarts.init(
+            document.getElementById('27de925780ac4e6182ce617616241003'), 'white', {renderer: 'canvas'});
+        var option_27de925780ac4e6182ce617616241003 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "bar",
+            "name": "PM2.5(\u5fae\u514b\u6bcf\u7acb\u65b9\u7c73)",
+            "yAxisIndex": 0,
+            "legendHoverLink": true,
+            "data": [
+                187.46,
+                206.73,
+                155.04,
+                27.09,
+                25.66,
+                20.57,
+                10.61,
+                21.18,
+                47.03,
+                36.69,
+                14.88,
+                13.64,
+                12.17,
+                31.99,
+                56.9,
+                55.6,
+                44.49,
+                13.12,
+                22.47,
+                44.6,
+                62.75,
+                18.47,
+                9.87,
+                7.69,
+                19.88,
+                25.95,
+                57.28,
+                75.15,
+                33.43,
+                42.0,
+                14.35
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "PM10(\u5fae\u514b\u6bcf\u7acb\u65b9\u7c73)",
+            "yAxisIndex": 1,
+            "legendHoverLink": true,
+            "data": [
+                249.22,
+                275.35,
+                208.27,
+                40.47,
+                45.51,
+                32.31,
+                16.44,
+                31.04,
+                70.28,
+                57.07,
+                22.89,
+                19.76,
+                20.35,
+                58.89,
+                88.94,
+                86.72,
+                52.58,
+                20.33,
+                27.44,
+                67.3,
+                91.84,
+                26.9,
+                16.21,
+                14.5,
+                30.97,
+                39.77,
+                90.79,
+                106.94,
+                54.49,
+                57.29,
+                18.75
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "SO2(\u5fae\u514b\u6bcf\u7acb\u65b9\u7c73)",
+            "yAxisIndex": 2,
+            "legendHoverLink": true,
+            "data": [
+                72.31,
+                51.18,
+                47.54,
+                11.34,
+                13.91,
+                8.43,
+                6.16,
+                9.78,
+                17.75,
+                16.0,
+                8.02,
+                6.93,
+                6.57,
+                13.89,
+                21.84,
+                25.59,
+                13.02,
+                5.51,
+                8.68,
+                22.74,
+                36.03,
+                10.44,
+                4.75,
+                3.73,
+                8.72,
+                9.59,
+                18.06,
+                33.34,
+                17.53,
+                20.18,
+                6.56
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "line",
+            "name": "\u5e73\u5747\u6e29\u5ea6",
+            "connectNulls": false,
+            "yAxisIndex": 3,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "1\u65e5",
+                    -208.94
+                ],
+                [
+                    "2\u65e5",
+                    -220.96
+                ],
+                [
+                    "3\u65e5",
+                    -210.05
+                ],
+                [
+                    "4\u65e5",
+                    -235.1
+                ],
+                [
+                    "5\u65e5",
+                    -235.75
+                ],
+                [
+                    "6\u65e5",
+                    -236.12
+                ],
+                [
+                    "7\u65e5",
+                    -238.17
+                ],
+                [
+                    "8\u65e5",
+                    -233.4
+                ],
+                [
+                    "9\u65e5",
+                    -231.15
+                ],
+                [
+                    "10\u65e5",
+                    -231.19
+                ],
+                [
+                    "11\u65e5",
+                    -236.25
+                ],
+                [
+                    "12\u65e5",
+                    -238.33
+                ],
+                [
+                    "13\u65e5",
+                    -236.26
+                ],
+                [
+                    "14\u65e5",
+                    -229.69
+                ],
+                [
+                    "15\u65e5",
+                    -225.8
+                ],
+                [
+                    "16\u65e5",
+                    -213.4
+                ],
+                [
+                    "17\u65e5",
+                    -229.15
+                ],
+                [
+                    "18\u65e5",
+                    -240.06
+                ],
+                [
+                    "19\u65e5",
+                    -236.06
+                ],
+                [
+                    "20\u65e5",
+                    -225.25
+                ],
+                [
+                    "21\u65e5",
+                    -206.05
+                ],
+                [
+                    "22\u65e5",
+                    -233.85
+                ],
+                [
+                    "23\u65e5",
+                    -239.41
+                ],
+                [
+                    "24\u65e5",
+                    -237.5
+                ],
+                [
+                    "25\u65e5",
+                    -235.76
+                ],
+                [
+                    "26\u65e5",
+                    -233.6
+                ],
+                [
+                    "27\u65e5",
+                    -231.03
+                ],
+                [
+                    "28\u65e5",
+                    -225.62
+                ],
+                [
+                    "29\u65e5",
+                    -231.54
+                ],
+                [
+                    "30\u65e5",
+                    -231.35
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "zlevel": 0,
+            "z": 0
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "PM2.5(\u5fae\u514b\u6bcf\u7acb\u65b9\u7c73)",
+                "PM10(\u5fae\u514b\u6bcf\u7acb\u65b9\u7c73)",
+                "SO2(\u5fae\u514b\u6bcf\u7acb\u65b9\u7c73)",
+                "\u5e73\u5747\u6e29\u5ea6"
+            ],
+            "selected": {
+                "PM2.5(\u5fae\u514b\u6bcf\u7acb\u65b9\u7c73)": true,
+                "PM10(\u5fae\u514b\u6bcf\u7acb\u65b9\u7c73)": true,
+                "SO2(\u5fae\u514b\u6bcf\u7acb\u65b9\u7c73)": true,
+                "\u5e73\u5747\u6e29\u5ea6": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "axis",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "cross"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "1\u65e5",
+                "2\u65e5",
+                "3\u65e5",
+                "4\u65e5",
+                "5\u65e5",
+                "6\u65e5",
+                "7\u65e5",
+                "8\u65e5",
+                "9\u65e5",
+                "10\u65e5",
+                "11\u65e5",
+                "12\u65e5",
+                "13\u65e5",
+                "14\u65e5",
+                "15\u65e5",
+                "16\u65e5",
+                "17\u65e5",
+                "18\u65e5",
+                "19\u65e5",
+                "20\u65e5",
+                "21\u65e5",
+                "22\u65e5",
+                "23\u65e5",
+                "24\u65e5",
+                "25\u65e5",
+                "26\u65e5",
+                "27\u65e5",
+                "28\u65e5",
+                "29\u65e5",
+                "30\u65e5"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "name": "PM2.5(\u5fae\u514b\u6bcf\u7acb\u65b9\u7c73)",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 80,
+            "splitNumber": 5,
+            "min": 0,
+            "max": 285.35,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        },
+        {
+            "type": "value",
+            "name": "PM10(\u5fae\u514b\u6bcf\u7acb\u65b9\u7c73)",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "axisLabel": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{value}"
+            },
+            "inverse": false,
+            "position": "right",
+            "offset": 0,
+            "splitNumber": 5,
+            "min": 0,
+            "max": 285.35,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        },
+        {
+            "type": "value",
+            "name": "SO2(\u5fae\u514b\u6bcf\u7acb\u65b9\u7c73)",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "axisLabel": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{value}"
+            },
+            "inverse": false,
+            "position": "right",
+            "offset": 100,
+            "splitNumber": 5,
+            "min": 0,
+            "max": 285.35,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        },
+        {
+            "type": "value",
+            "name": "\u6e7f\u5ea6",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "axisLabel": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{value} %"
+            },
+            "inverse": false,
+            "position": "left",
+            "offset": 0,
+            "splitNumber": 5,
+            "min": -245.06,
+            "max": -201.05,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "\u5929\u6d251\u6708\u6570\u636e",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "dataZoom": [
+        {
+            "show": true,
+            "type": "slider",
+            "realtime": true,
+            "start": 20,
+            "end": 80,
+            "orient": "horizontal",
+            "zoomLock": false,
+            "filterMode": "filter"
+        },
+        {
+            "show": true,
+            "type": "inside",
+            "realtime": true,
+            "start": 20,
+            "end": 80,
+            "orient": "horizontal",
+            "zoomLock": false,
+            "filterMode": "filter"
+        }
+    ],
+    "grid": [
+        {
+            "show": false,
+            "zlevel": 0,
+            "z": 2,
+            "left": "5%",
+            "right": "15%",
+            "containLabel": false,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1
+        }
+    ]
+};
+        chart_27de925780ac4e6182ce617616241003.setOption(option_27de925780ac4e6182ce617616241003);
+    </script>
+<br/>                <div id="e445a88fb0f04ce9a2116a6f85074305" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_e445a88fb0f04ce9a2116a6f85074305 = echarts.init(
+            document.getElementById('e445a88fb0f04ce9a2116a6f85074305'), 'white', {renderer: 'canvas'});
+        var option_e445a88fb0f04ce9a2116a6f85074305 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "bar",
+            "name": "PM2.5(\u5fae\u514b\u6bcf\u7acb\u65b9\u7c73)",
+            "yAxisIndex": 0,
+            "legendHoverLink": true,
+            "data": [
+                19.34,
+                28.77,
+                67.65,
+                62.34,
+                61.69,
+                64.22,
+                30.45,
+                89.02,
+                89.48,
+                70.14,
+                15.95,
+                43.88,
+                42.47,
+                30.58,
+                20.82,
+                30.27,
+                25.38,
+                24.74,
+                35.86,
+                64.8,
+                74.93,
+                41.39,
+                54.08,
+                9.11,
+                13.64,
+                34.09,
+                57.75,
+                51.84,
+                86.36,
+                102.95
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "PM10(\u5fae\u514b\u6bcf\u7acb\u65b9\u7c73)",
+            "yAxisIndex": 1,
+            "legendHoverLink": true,
+            "data": [
+                53.32,
+                71.16,
+                138.69,
+                126.61,
+                117.15,
+                118.56,
+                84.97,
+                141.67,
+                154.11,
+                111.37,
+                27.7,
+                74.69,
+                76.15,
+                56.09,
+                30.99,
+                52.41,
+                45.53,
+                39.66,
+                66.42,
+                100.78,
+                118.73,
+                77.04,
+                90.62,
+                14.94,
+                21.67,
+                59.77,
+                108.01,
+                72.88,
+                121.0,
+                155.14
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "SO2(\u5fae\u514b\u6bcf\u7acb\u65b9\u7c73)",
+            "yAxisIndex": 2,
+            "legendHoverLink": true,
+            "data": [
+                16.09,
+                19.23,
+                48.35,
+                27.37,
+                39.5,
+                32.48,
+                12.24,
+                16.92,
+                35.19,
+                19.62,
+                8.34,
+                23.81,
+                26.32,
+                20.44,
+                9.55,
+                15.7,
+                14.64,
+                10.68,
+                16.82,
+                28.62,
+                25.8,
+                22.14,
+                15.61,
+                5.23,
+                6.94,
+                15.67,
+                27.77,
+                22.02,
+                17.66,
+                19.88
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "line",
+            "name": "\u5e73\u5747\u6e29\u5ea6",
+            "connectNulls": false,
+            "yAxisIndex": 3,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "1\u65e5",
+                    -240.27
+                ],
+                [
+                    "2\u65e5",
+                    -247.68
+                ],
+                [
+                    "3\u65e5",
+                    -239.94
+                ],
+                [
+                    "4\u65e5",
+                    -225.75
+                ],
+                [
+                    "5\u65e5",
+                    -221.72
+                ],
+                [
+                    "6\u65e5",
+                    -215.99
+                ],
+                [
+                    "7\u65e5",
+                    -216.76
+                ],
+                [
+                    "8\u65e5",
+                    -216.31
+                ],
+                [
+                    "9\u65e5",
+                    -224.75
+                ],
+                [
+                    "10\u65e5",
+                    -228.56
+                ],
+                [
+                    "11\u65e5",
+                    -229.47
+                ],
+                [
+                    "12\u65e5",
+                    -223.5
+                ],
+                [
+                    "13\u65e5",
+                    -221.86
+                ],
+                [
+                    "14\u65e5",
+                    -198.54
+                ],
+                [
+                    "15\u65e5",
+                    -220.18
+                ],
+                [
+                    "16\u65e5",
+                    -235.54
+                ],
+                [
+                    "17\u65e5",
+                    -237.63
+                ],
+                [
+                    "18\u65e5",
+                    -237.61
+                ],
+                [
+                    "19\u65e5",
+                    -238.05
+                ],
+                [
+                    "20\u65e5",
+                    -223.94
+                ],
+                [
+                    "21\u65e5",
+                    -202.89
+                ],
+                [
+                    "22\u65e5",
+                    -197.56
+                ],
+                [
+                    "23\u65e5",
+                    -212.42
+                ],
+                [
+                    "24\u65e5",
+                    -240.14
+                ],
+                [
+                    "25\u65e5",
+                    -244.26
+                ],
+                [
+                    "26\u65e5",
+                    -242.51
+                ],
+                [
+                    "27\u65e5",
+                    -229.32
+                ],
+                [
+                    "28\u65e5",
+                    -211.94
+                ],
+                [
+                    "29\u65e5",
+                    -202.09
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "zlevel": 0,
+            "z": 0
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "PM2.5(\u5fae\u514b\u6bcf\u7acb\u65b9\u7c73)",
+                "PM10(\u5fae\u514b\u6bcf\u7acb\u65b9\u7c73)",
+                "SO2(\u5fae\u514b\u6bcf\u7acb\u65b9\u7c73)",
+                "\u5e73\u5747\u6e29\u5ea6"
+            ],
+            "selected": {
+                "PM2.5(\u5fae\u514b\u6bcf\u7acb\u65b9\u7c73)": true,
+                "PM10(\u5fae\u514b\u6bcf\u7acb\u65b9\u7c73)": true,
+                "SO2(\u5fae\u514b\u6bcf\u7acb\u65b9\u7c73)": true,
+                "\u5e73\u5747\u6e29\u5ea6": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "axis",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "cross"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "1\u65e5",
+                "2\u65e5",
+                "3\u65e5",
+                "4\u65e5",
+                "5\u65e5",
+                "6\u65e5",
+                "7\u65e5",
+                "8\u65e5",
+                "9\u65e5",
+                "10\u65e5",
+                "11\u65e5",
+                "12\u65e5",
+                "13\u65e5",
+                "14\u65e5",
+                "15\u65e5",
+                "16\u65e5",
+                "17\u65e5",
+                "18\u65e5",
+                "19\u65e5",
+                "20\u65e5",
+                "21\u65e5",
+                "22\u65e5",
+                "23\u65e5",
+                "24\u65e5",
+                "25\u65e5",
+                "26\u65e5",
+                "27\u65e5",
+                "28\u65e5",
+                "29\u65e5"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "name": "PM2.5(\u5fae\u514b\u6bcf\u7acb\u65b9\u7c73)",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 80,
+            "splitNumber": 5,
+            "min": 0,
+            "max": 165.14,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        },
+        {
+            "type": "value",
+            "name": "PM10(\u5fae\u514b\u6bcf\u7acb\u65b9\u7c73)",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "axisLabel": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{value}"
+            },
+            "inverse": false,
+            "position": "right",
+            "offset": 0,
+            "splitNumber": 5,
+            "min": 0,
+            "max": 165.14,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        },
+        {
+            "type": "value",
+            "name": "SO2(\u5fae\u514b\u6bcf\u7acb\u65b9\u7c73)",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "axisLabel": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{value}"
+            },
+            "inverse": false,
+            "position": "right",
+            "offset": 100,
+            "splitNumber": 5,
+            "min": 0,
+            "max": 165.14,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        },
+        {
+            "type": "value",
+            "name": "\u6e7f\u5ea6",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "axisLabel": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{value} %"
+            },
+            "inverse": false,
+            "position": "left",
+            "offset": 0,
+            "splitNumber": 5,
+            "min": -252.68,
+            "max": -192.56,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "\u5929\u6d256\u6708\u6570\u636e",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "dataZoom": [
+        {
+            "show": true,
+            "type": "slider",
+            "realtime": true,
+            "start": 20,
+            "end": 80,
+            "orient": "horizontal",
+            "zoomLock": false,
+            "filterMode": "filter"
+        },
+        {
+            "show": true,
+            "type": "inside",
+            "realtime": true,
+            "start": 20,
+            "end": 80,
+            "orient": "horizontal",
+            "zoomLock": false,
+            "filterMode": "filter"
+        }
+    ],
+    "grid": [
+        {
+            "show": false,
+            "zlevel": 0,
+            "z": 2,
+            "left": "5%",
+            "right": "15%",
+            "containLabel": false,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1
+        }
+    ]
+};
+        chart_e445a88fb0f04ce9a2116a6f85074305.setOption(option_e445a88fb0f04ce9a2116a6f85074305);
+    </script>
+<br/>    </div>
+    <script>
+    </script>
+</body>
+</html>
